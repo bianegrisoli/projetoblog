@@ -11,7 +11,7 @@ buscar_teste();
 
 //Teste inserção banco de dados
 function insert_teste($titulo, $texto, $usuario_id): void{
-    $dados = ['titulo' => $titulo, 'texto' => $texto, 'usuario_id' => $usuario_id]; 
+    $dados = ['titulo' => $titulo, 'texto' => $texto, 'usuario_id' => $usuario_id, 'data_postagem' => '2023-09-01 14:00:00']; 
     insere ('post', $dados);
 }
 
